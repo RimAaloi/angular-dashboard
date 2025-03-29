@@ -1,59 +1,51 @@
-# Tp5
+# 🔐 Authentication System - Angular Version
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+This project implements a complete user authentication system (Signup, Login, Logout) using Angular framework with JSON Server as a mock backend.
 
-## Development server
+## 🚀 Features
+- Protected dashboard
+- Session management
+- Route guards for protected routes
+- Responsive design
 
-To start a local development server, run:
+## 🛠️ Technologies
+- Angular 16+
+- Angular Router
+- Angular Forms (Reactive Forms)
+- Angular HTTP Client
+- JSON Server (mock backend)
+- RxJS for state management
+- Bootstrap 5 for styling
 
-```bash
-ng serve
+## 🏁 Getting Started
+
+### Prerequisites
+- Node.js 16+
+- Angular CLI
+- JSON Server
+
+## 📂 Project Structure
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
 ```
+## 📝 Available Scripts
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- `npm start`: Start development server
+- `npm run server`: Start JSON Server
+- `npm run build`: Production build
+- `npm test`: Run tests
 
-```bash
-ng generate --help
-```
+## 📸 Screenshots
+*Login Page*
+![Login Page](screenshots/an1.png)  
+*Signup Page*
+![Login Page](screenshots/an2.png)  
+*Dashboard*
+![Dashboard](screenshots/an3.png)  
 
-## Building
+## 💌 Author
 
-To build the project run:
+👩‍💻 **Rim Aaloi**  
+💌 Contact: [GitHub Profile](https://github.com/RimAaloi) | [LinkedIn](https://www.linkedin.com/in/rim-aaloi/)  
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
