@@ -26,6 +26,42 @@ This project implements a complete user authentication system (Signup, Login, Lo
 
 ## 📂 Project Structure
 ```
+├── public/
+│ └── screenshots/ 
+├── src/
+│ ├── app/
+│ │ ├── dashboard/ 
+│ │ │ ├── dashboard.component.css
+│ │ │ ├── dashboard.component.html
+│ │ │ ├── dashboard.component.spec.ts
+│ │ │ └── dashboard.component.ts
+│ │ │
+│ │ ├── login/
+│ │ │ ├── login.component.css
+│ │ │ ├── login.component.html
+│ │ │ ├── login.component.spec.ts
+│ │ │ └── login.component.ts
+│ │ │
+│ │ ├── signup/ 
+│ │ │ ├── signup.component.css
+│ │ │ ├── signup.component.html
+│ │ │ ├── signup.component.spec.ts
+│ │ │ └── signup.component.ts
+│ │ │
+│ │ ├── app.component.css
+│ │ ├── app.component.html
+│ │ ├── app.component.spec.ts
+│ │ ├── app.component.ts
+│ │ ├── app.config.server.ts
+│ │ ├── app.config.ts
+│ │ ├── app.routes.server.ts
+│ │ ├── app.routes.ts
+│ │ ├── auth.service.spec.ts
+│ │ └── auth.service.ts
+│ │
+│ └── ... # Autres fichiers src (index.html, main.ts etc.)
+├── ... # Fichiers racine (angular.json, package.json etc.)
+
 
 ```
 ## 📝 Available Scripts
